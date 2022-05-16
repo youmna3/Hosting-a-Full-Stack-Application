@@ -6,7 +6,13 @@ deploy:
   artifact: www/Archive.zip
 global:
   application_name: udagram-api
-  branch: null
+  branch-default:
+    master:
+    environment: prod-api
+    group_suffix: null
+  staging:
+    environment: staging-api
+    group_suffix: null
   default_ec2_keyname: null
   default_platform: Node.js
   default_region: us-east-1
