@@ -1,0 +1,17 @@
+version: 2.1
+orbs:
+  node:
+  aws-cli:
+jobs:
+  # name of the job (build or deploy)
+  deploy: # name
+    docker: # excuter: env(docker,machine, windows)
+      - image:
+  steps:
+    actions:
+    commands:
+workflow:
+  Hosting-a-Full-Stack-Application: # name of the workflow
+    jobs: ## specify how to run and the order of the job (build run before deploy)
+      build:
+      deploy:

@@ -1,6 +1,6 @@
 branch-defaults:
   master:
-    environment: udagram-api-dev
+    environment: null
 deploy:
   artifact: www/Archive.zip
 environment-defaults:
