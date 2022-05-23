@@ -32,8 +32,8 @@ jobs:
       name: Build Udagram-api
       command: |
         yarn udagram-api:build
-workflow:
-  Hosting-a-Full-Stack-Application: # name of the workflow
-    jobs: ## specify how to run and the order of the job (build run before deploy)
-      build:
+#workflow:
+ # Hosting-a-Full-Stack-Application: # name of the workflow
+   # jobs: ## specify how to run and the order of the job (build run before deploy)
+     # build:
       
