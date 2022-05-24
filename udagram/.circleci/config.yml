@@ -15,7 +15,7 @@ jobs:
           #version: 1.22.18
       - checkout
       - aws-cli/setup
-      #- eb/setup
+      - eb/setup
       - run:
           name: Install Udagram-Frontend
           command: |
