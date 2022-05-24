@@ -17,18 +17,18 @@ jobs:
       - aws-cli/setup
       - eb/setup
       - run:
-        name: Install Udagram-Frontend
-        commands: |
-          yarn udagram-frontend:install
+          name: Install Udagram-Frontend
+          commands: |
+            yarn udagram-frontend:install
       - run:
-        name: Build Udagram-Frontend
-        command: |
-          yarn udagram-frontend:build
+          name: Build Udagram-Frontend
+          command: |
+            yarn udagram-frontend:build
       - run:
-        name: Install Udagram-api
-        command: |
-          yarn udagram-api:install
+          name: Install Udagram-api
+          command: |
+            yarn udagram-api:install
       - run:
-        name: Build Udagram-api
-        command: |
-          yarn udagram-api:build
+          name: Build Udagram-api
+          command: |
+            yarn udagram-api:build
