@@ -17,6 +17,14 @@ jobs:
       - aws-cli/setup
       - eb/setup
       - run:
+          name: Install Udagram-Frontend
+          command: |
+            yarn udagram-frontend:install
+      - run:
+          name: Build Udagram-Frontend
+          command: |
+            yarn udagram-frontend:build
+      - run:
           name: Install Udagram-api
           command: |
             yarn udagram-api:install
@@ -24,8 +32,3 @@ jobs:
           name: Build Udagram-api
           command: |
             yarn udagram-api:build
-  # Hosting-a-Full-Stack-Application: # name of the workflow
-  # jobs: ## specify how to run and the order of the job (build run before deploy)
-  # build:
-
-#workflow:
