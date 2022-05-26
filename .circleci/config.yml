@@ -5,7 +5,7 @@ orbs:
   eb: circleci/aws-elastic-beanstalk@2.0.1
 jobs:
   # name of the job (build or deploy)
-  build-deploy: # name
+  build: # name
     docker: # excuter: env(docker,machine, windows)
       - image: "cimg/base:stable"
     steps:
@@ -25,10 +25,6 @@ jobs:
           command: |
             yarn udagram-frontend:build
       - run:
-          name: Deploy Udagram-Frontend
-          command: |
-            yarn udagram-frontend:deploy
-      - run:
           name: Install Udagram-api
           command: |
             yarn udagram-api:install
@@ -36,7 +32,3 @@ jobs:
           name: Build Udagram-api
           command: |
             yarn udagram-api:build
-      - run:
-          name: Deploy Udagram-api
-          command: |
-            yarn udagram-api:deploy
