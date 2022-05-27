@@ -41,6 +41,8 @@ jobs:
           command: |
             yarn udagram-api:deploy
   workflows:
-    build-and-deploy:
-      jobs:
-        - build-and-deploy
+    version: 2
+      build-and-deploy:
+        jobs:
+          - build-and-deploy
+          
