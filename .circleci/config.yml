@@ -40,3 +40,7 @@ jobs:
           name: Deploy Udagram-api
           command: |
             yarn udagram-api:deploy
+  workflows:
+    build-and-deploy:
+      jobs:
+        - build-and-deploy
