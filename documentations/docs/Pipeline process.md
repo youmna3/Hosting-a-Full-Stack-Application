@@ -9,6 +9,7 @@
 - create a github repo (push and commit the code to it)
 - link the repo to CircleCi
 - create .circleci\config.yml
+- setup the repo to circleci
 - cirecleCi reads from .circleci\config.yml to do the jobs
 
 ### the order of jobs in CircleCi
