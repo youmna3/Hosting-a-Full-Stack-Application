@@ -1,6 +1,6 @@
 # Project setup
 
-- go to the backend directory -cd "udagram\udagram-api"
+- go to the backend directory `-cd "udagram\udagram-api" `
 - install dependencies -yarn
 - start the backend -yarn dev
 - go the frontend directory -cd "udagram\udagram-frontend"
