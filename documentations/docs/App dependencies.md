@@ -2,7 +2,6 @@
 
 ## Backend
 
-```
 1. bcrypt
 1. aws-sdk
 1. body-parser
@@ -14,7 +13,6 @@
 1. pg
 1. reflect-metadata
 1. sequelize
-```
 
 ## Project setup
 
