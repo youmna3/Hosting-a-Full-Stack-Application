@@ -1,7 +1,20 @@
 # App Dependencies
 
-- node js
--
+## Backend
+
+```
+1. bcrypt
+1. aws-sdk
+1. body-parser
+1. cors
+1. dotenv
+1. email-validato
+1. express
+1. jsonwebtoken
+1. pg
+1. reflect-metadata
+1. sequelize
+```
 
 ## Project setup
 

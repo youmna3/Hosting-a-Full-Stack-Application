@@ -66,8 +66,18 @@ Provision the necessary AWS services needed for running the application:
 
 ## Pipeline
 
+```
+- Installing Frontend Dependencies `yarn udagram-frontend:install`
+- Build Angular Frontend `yarn udagram-frontend:build`
+- Deploy Frontend to S3 `yarn udagram-frontend:deploy`
+- Installing Backend Dependencies `yarn udagram-api:install`
+- Build Backend `yarn udagram-api:build`
+- Deploy the Backend using `udagram\udagram-api\bin\deploy.sh` to Elastic Beanstalk `yarn udagram-api:deploy`
+```
+
 ## CircleCi
 
+```
 - spin up enviroment
 - prepare enviroment variables
 - install node js
@@ -85,6 +95,7 @@ Provision the necessary AWS services needed for running the application:
 - install udagram-api
 - build udagram-api
 - deploy udagram-api
+```
 
 ## Testing
 
