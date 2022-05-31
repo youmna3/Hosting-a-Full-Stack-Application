@@ -7,8 +7,8 @@
 - AWS Cloud Service
 - Environment Variables
 - Pipeline
-- Testing
 - CircleCi
+- Testing
 - Built With
 
 ### Dependencies
