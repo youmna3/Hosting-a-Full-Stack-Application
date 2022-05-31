@@ -30,8 +30,8 @@
 
 Provision the necessary AWS services needed for running the application:
 
-1. In AWS, provision a publicly available RDS database running Postgres. <database-1.c9fjnw3qxkff.us-east-1.rds.amazonaws.com>
-1. In AWS, provision a s3 bucket for hosting the uploaded files. <http://my-363479747745-bucket.s3-website-us-east-1.amazonaws.com/home>
+1. In AWS, provision a publicly available RDS database running Postgres.
+1. In AWS, provision a s3 bucket for hosting the uploaded files.
 1. Export the ENV variables needed or use a package like [dotnev](https://www.npmjs.com/package/dotenv)/.
 1. From the root of the repo, navigate udagram-api folder `cd udagram/udagram-api` to install the node_modules `yarn `. After installation is done start the api in dev mode with `yarn dev`.
 1. Without closing the terminal in step 1, navigate to the udagram-frontend `cd udagram/udagram-frontend ` to intall the node_modules `yarn`. After installation is done start the api in dev mode with `yarn start`.
