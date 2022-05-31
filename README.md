@@ -8,6 +8,7 @@
 - Environment Variables
 - Pipeline
 - Testing
+- CircleCi
 - Built With
 
 ### Dependencies
@@ -62,6 +63,28 @@ Provision the necessary AWS services needed for running the application:
 - AWS_ACCESS_KEY_ID
 - AWS_SECRET_ACCESS_KEY
 ```
+
+## Pipeline
+
+## CircleCi
+
+- spin up enviroment
+- prepare enviroment variables
+- install node js
+- checkout
+- install yarn
+- install aws CLI V2
+- disable aws pager
+- configure aws access key ID
+- configure aws secret access key
+- configure aws region
+- setting up elastic beanstalk CLI
+- install udagram-frontend
+- build udagram-frontend
+- deploy udagram-frontend
+- install udagram-api
+- build udagram-api
+- deploy udagram-api
 
 ## Testing
 
