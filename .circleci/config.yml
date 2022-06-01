@@ -44,12 +44,3 @@ jobs:
           name: Deploy Udagram-api
           command: |
             yarn udagram-api:deploy
-  #build:
-  #jobs:
-  #- build:
-  #filters:
-  #branches:
-  #only:
-  #- master
-
-#workflows:
