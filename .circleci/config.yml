@@ -41,7 +41,7 @@ jobs:
           command: |
             yarn udagram-api:deploy
 workflows:
-  build-workflow:
+  build-deploy:
     jobs:
       - build:
         filters:
