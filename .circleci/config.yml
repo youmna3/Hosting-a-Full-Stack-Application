@@ -3,10 +3,6 @@ orbs:
   node: circleci/node@5.0.2
   aws-cli: circleci/aws-cli@1.3.1
   eb: circleci/aws-elastic-beanstalk@2.0.1
-filters:
-  branches:
-    only:
-      - master
 jobs:
   # name of the job
   build-deploy:
